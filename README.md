@@ -106,20 +106,6 @@ A alimentação é distribuída pela protoboard. Um fio leva o 5V do Arduino ao 
 
 O arquivo `diagram.json` contém a montagem completa e pode ser carregado direto no Wokwi.
 
-## Instruções de execução
-
-O projeto roda no simulador Wokwi, sem necessidade de hardware físico.
-
-1. Acesse wokwi.com e crie um projeto novo de Arduino Uno.
-2. Abra a aba de código e cole o conteúdo de `sketch.ino`.
-3. Abra a aba diagram e cole o conteúdo de `diagram.json`.
-4. Crie a aba `libraries.txt`, se não existir, e cole a linha `LiquidCrystal I2C`. Isso instala a biblioteca do display.
-5. Clique em play para iniciar a simulação.
-
-Para testar o comportamento, arraste o controle de distância do HC-SR04 para simular a aproximação do objeto e gire o potenciômetro para alterar a velocidade relativa. O display, os LEDs e o buzzer respondem em tempo real. Abra o Serial Monitor para acompanhar o registro de cada leitura.
-
-Caso o display apareça em branco ou só com blocos, troque o endereço I2C de `0x27` para `0x3F` na linha que cria o objeto `lcd`, já que alguns módulos usam esse endereço.
-
 ## Integrantes do grupo
 
 - Nome completo: João Pedro Ferreira Pinheiro - RM: 570569
@@ -133,6 +119,4 @@ Caso o display apareça em branco ou só com blocos, troque o endereço I2C de `
 | Arquivo | Conteúdo |
 |---|---|
 | `sketch.ino` | Código fonte em Arduino/C++ com toda a lógica de decisão |
-| `diagram.json` | Montagem do circuito na protoboard e fiação |
-| `libraries.txt` | Bibliotecas instaladas pelo Wokwi |
 | `README.md` | Este documento |
