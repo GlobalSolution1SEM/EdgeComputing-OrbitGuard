@@ -109,8 +109,8 @@ O arquivo `diagram.json` contém a montagem completa e pode ser carregado direto
 ## Integrantes do grupo
 
 - Nome completo: João Pedro Ferreira Pinheiro - RM: 570569
-- Nome completo: Vitor Buzato - RM: 569720
-- Nome completo: João Pedro Matos de Gomes - RM: 659934
+- Nome completo: Vitor de Castro Buzato - RM: 569720
+- Nome completo: João Pedro Gomes de Matos - RM: 569934
 - Nome completo: Davi Pereira - RM: 572337
 - Nome completo: Gabriel Palmieri - RM: 570508
 
